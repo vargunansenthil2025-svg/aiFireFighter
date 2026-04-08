@@ -16,3 +16,7 @@ bool moveRobotTowardsFire(int &robotX, int &robotY, int fireX, int fireY) {
  } else if (robotY < fireY) {
      robotY++;
  } else f (robotY > fireY) {
+          robotY--; 
+    }
+
+    return false;
