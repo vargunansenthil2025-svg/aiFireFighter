@@ -40,7 +40,6 @@ int main() {
         // Pause for visual effect
         this_thread::sleep_for(chrono::milliseconds(500));
     }
-
     logEvent("CRITICAL: Fire Reached. Extinguishing sequence activated.");
     cout << "\n[SUCCESS] Fire Reached and Extinguished!\n";
     
