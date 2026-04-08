@@ -20,3 +20,4 @@ bool moveRobotTowardsFire(int &robotX, int &robotY, int fireX, int fireY) {
     }
 
     return false;
+    
