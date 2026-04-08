@@ -1,8 +1,5 @@
 
 
-#vargusan
-#hrishikesh
-
 
 
 #include <iostream>
