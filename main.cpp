@@ -10,11 +10,11 @@ using namespace std;
 int main() {
     int roomSize, robotX, robotY, fireX, fireY;
     cout << "=== AI Fire Robot Simulator ===\n";
-    cout << "Enter Room Size (e.g., 10 for a 10x10 grid): ";
+    cout << "Enter Room Size : ";
     cin >> roomSize;
-    cout << "Enter Robot Start X & Y (e.g., 0 0): ";
+    cout << "Enter Robot Start X & Y : ";
     cin >> robotX >> robotY;
-    cout << "Enter Fire Location X & Y (e.g., 8 8): ";
+    cout << "Enter Fire Location X & Y : ";
     cin >> fireX >> fireY;
     initIoTLogger();
     logEvent("System Started. Room size: " + to_string(roomSize));
