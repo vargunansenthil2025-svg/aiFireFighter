@@ -1,23 +1,24 @@
 
-#ifdef PATHFINDING_H
+#ifndef PATHFINDING_H
 #define PATHFINDING_H
 
-bool moveRobotFire(int &robotX,int &robotY,intFireX,int fire y);
+bool moveRobotTowardsFire(int &robotX, int &robotY, int fireX, int fireY);
 #endif
+#include "pathfinding.h"
 bool moveRobotTowardsFire(int &robotX, int &robotY, int fireX, int fireY) {
- if(robotX == fireX && robotY == fireY){
-    return true;
- }
-
- if(robotx < firex) {
-    robotX++;
- } else if (robotX > fireX){
-     robotX--;
- } else if (robotY < fireY) {
-     robotY++;
- } else f (robotY > fireY) {
-          robotY--; 
+    if (robotX == fireX && robotY == fireY) {
+        return true; 
     }
 
-    return false;
-    
+    if (robotX < fireX) {
+        robotX++; 
+    } else if (robotX > fireX) {
+        robotX--; 
+    } else if (robotY < fireY) {
+        robotY++; 
+    } else if (robotY > fireY) {
+        robotY--; 
+    }
+
+    return false; 
+}
