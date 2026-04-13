@@ -1,9 +1,13 @@
 ---SMART FIRE ROBOT IOT TELEMETRY LOG---
-[Mon Apr 13 11:18:12 2026] System Started. Room size: 10
-[Mon Apr 13 11:18:12 2026] Fire detected at: [8, 5]
-[Mon Apr 13 11:18:12 2026] Robot moved to: [4, 9]
-[Mon Apr 13 11:18:13 2026] Robot moved to: [5, 8]
-[Mon Apr 13 11:18:13 2026] Robot moved to: [6, 7]
-[Mon Apr 13 11:18:14 2026] Robot moved to: [7, 6]
-[Mon Apr 13 11:18:14 2026] Robot positioned. Range to fire: 1 block. Initiating extinguishing sequence.
-[Mon Apr 13 11:18:15 2026] CRITICAL: Fire EXTINGUISHED!
+[Mon Apr 13 11:28:33 2026] System Started. Room size: 10
+[Mon Apr 13 11:28:33 2026] Fire detected at: [3, 0]
+[Mon Apr 13 11:28:33 2026] Robot moved to: [8, 8]
+[Mon Apr 13 11:28:33 2026] Robot moved to: [8, 7]
+[Mon Apr 13 11:28:34 2026] Robot moved to: [8, 6]
+[Mon Apr 13 11:28:35 2026] Robot moved to: [8, 5]
+[Mon Apr 13 11:28:35 2026] Robot moved to: [7, 4]
+[Mon Apr 13 11:28:36 2026] Robot moved to: [6, 3]
+[Mon Apr 13 11:28:36 2026] Robot moved to: [5, 2]
+[Mon Apr 13 11:28:37 2026] Robot moved to: [4, 1]
+[Mon Apr 13 11:28:37 2026] Robot positioned. Range to fire: 1 block. Initiating extinguishing sequence.
+[Mon Apr 13 11:28:38 2026] CRITICAL: Fire EXTINGUISHED!
